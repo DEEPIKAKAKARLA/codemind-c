@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
     int n,r,i=0,count=0;
     scanf("%d",&n);
     int x=n;
@@ -14,7 +15,8 @@ int main(){
         i++;
         n=n/10;
     }
-    for(i=count-1;i>=0;i--){
+    for(i=count-1;i>=0;i--)
+    {
         if(arr[i]==6){
             arr[i]=9;
             break;
